@@ -31,26 +31,26 @@ button.addEventListener("click",()=>{
 
 
         innerContainer.innerHTML = `
-        <img class="image" src="person-0.jpg" alt="" />
+        <img class="image" src="${image}" alt="" />
          <p>
             <i class="fa-solid fa-user"></i> Name :
-            <span class="name"> Anderson</span>
+            <span class="name">"${first}"</span>
         </p>
         <p>
             <i class="fa-solid fa-user"></i> LastName :
-            <span class="last-name"> Manderson </span>
+            <span class="last-name">"${last}" </span>
         </p>
         <p>
             <i class="fa-solid fa-magnifying-glass-location"></i> Location :
-            <span class="location"> Adana</span>
+            <span class="location">"${location}"</span>
         </p>
         <p>
             <i class="fa-solid fa-phone-flip"></i>Phone :
-            <span class="phone"> 123-456-789</span>
+            <span class="phone"> "${phone}"</span>
         </p>
         <p>
             <i class="fa-solid fa-envelope"></i>Email :
-            <span class="email"> asdfg@gmail.com</span>
+            <span class="email">"${email}"</span>
         </p>`
 
     };
